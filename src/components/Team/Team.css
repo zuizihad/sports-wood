@@ -1,0 +1,38 @@
+.league{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #ffffff;
+    box-shadow:  20px 20px 60px #d9d9d9,
+             -20px -20px 60px #ffffff;
+}
+.league h3{
+    color: indianred;
+    margin: 10px;
+}
+
+.league p{
+    color: teal;
+    margin: 10px;
+}
+
+.league button{
+    padding: 10px 15px;
+    background-color: indigo;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.league img {
+    width: 50%;
+}
